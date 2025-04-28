@@ -1,0 +1,14 @@
+﻿<APPLICATIONS>
+  <!-- Commenting out Temporarily Since the functionality is not finished<APPLICATION Name="I\O">
+    <ACTION Name="Copy Files" ClassToCreate="UserControlCopyFiles"></ACTION>
+  </APPLICATION>-->
+ 
+  <APPLICATION Name="Tools For Database">
+    <ACTION Name="Upgrade Database / Create Database"  ClassToCreate="UserControlUpgradeDatabase"/>
+  </APPLICATION>
+  <APPLICATION Name="Manage Application Configuration">
+    <ACTION Name="Update User Accounts"  ClassToCreate="UserControlManageUserAccounts"/>
+    <ACTION Name="Manage Roles"  ClassToCreate="UserControlManageUserRoles"/>    
+  </APPLICATION>
+</APPLICATIONS>
+
